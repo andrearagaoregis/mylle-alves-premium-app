@@ -204,7 +204,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # CONSTANTES E CONFIGURAÇÕES
 # ======================
 class Config:
-    API_KEY = st.secrets.get("API_KEY", "sua_chave_api_gemini_aqui")
+    API_KEY = st.secrets.get("API_KEY", "AIzaSyB0R7cnWI33WjzID5spoZmXroddEoqmBoM")
     API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
     
     # Links de checkout para doações
