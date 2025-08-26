@@ -304,7 +304,7 @@ class Config:
     
     # Áudios
     AUDIOS = {
-        "claro_tenho_amostra_gratis": {
+        "claro_tenho_amostra_gratis(1)": {
             "url": "https://github.com/andrearagaoregis/mylle-alves-premium-app/raw/refs/heads/main/assets/Claro%20eu%20tenho%20amostra%20gr%C3%A1tis%20(1).mp3",
             "usage_count": 0,
             "last_used": None
