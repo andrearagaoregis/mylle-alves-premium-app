@@ -252,10 +252,10 @@ class Config:
     
     # Links de checkout para doações
     DONATION_CHECKOUT_LINKS = {
-        30: "https://seu.link.de.checkout/30reais",
-        50: "https://seu.link.de.checkout/50reais", 
-        100: "https://seu.link.de.checkout/100reais",
-        150: "https://seu.link.de.checkout/150reais",
+        30: "https://app.pushinpay.com.br/app/payment-links/9FB92362-3CD0-47E8-A1F2-5284A618865A",
+        50: "https://app.pushinpay.com.br/service/pay/9fb92a70-6ec5-41f6-96a8-08b4b46d59ac", 
+        100: "https://app.pushinpay.com.br/service/pay/9fb92b37-9ed3-416f-8fec-0796eaadd96f",
+        150: "https://app.pushinpay.com.br/service/pay/9fb92be5-f6fb-4ca4-a16d-ecfd4a8d2a99",
         "custom": "https://seu.link.de.checkout/personalizado"
     }
     
@@ -289,23 +289,24 @@ class Config:
     ]
     
     SOCIAL_LINKS = {
-        "instagram": "https://instagram.com/myllealves",
-        "onlyfans": "https://onlyfans.com/myllealves",
-        "telegram": "https://t.me/myllealves",
-        "twitter": "https://twitter.com/myllealves"
+        "instagram": "https://www.instagram.com/myllealves_ofc",
+        "facebook": "https://onlyfans.com/myllealves",
+        "telegram": "https://t.me/previasmyllealves",
+        "tiktok": "https://twitter.com/myllealves"
     }
     
     SOCIAL_ICONS = {
         "instagram": "📸 Instagram",
-        "onlyfans": "💎 OnlyFans",
+        "facebook": "💎 OnlyFans",
         "telegram": "✈️ Telegram",
-        "twitter": "🐦 Twitter"
+        "tiktok": "🐦 Twitter"
     }
     
     # Áudios
     AUDIOS = {
         "claro_tenho_amostra_gratis": {
-            "url": "https://github.com/andrearagaoregis/testes2/raw/refs/heads/main/assets/Claro%20eu%20tenho%20amostra%20gr%C3%A1tis.mp3",
+            "url": "https://github.com/andrearagaoregis/mylle-alves-premium-app/raw/refs/heads/main/assets/Claro%20eu%20tenho%20amostra%20gr%C3%A1tis%20(1).mp3
+",
             "usage_count": 0,
             "last_used": None
         },
@@ -315,37 +316,43 @@ class Config:
             "last_used": None
         },
         "o_que_achou_amostras": {
-            "url": "https://github.com/andrearagaoregis/testes2/raw/refs/heads/main/assets/O%20que%20achou%20das%20amostras.mp3",
+            "url": "https://github.com/andrearagaoregis/mylle-alves-premium-app/raw/refs/heads/main/assets/Imagina%20s%C3%B3%20ela%20bem%20rosinha.mp3
+",
             "usage_count": 0,
             "last_used": None
         },
         "oi_meu_amor_tudo_bem": {
-            "url": "https://github.com/andrearagaoregis/testes2/raw/refs/heads/main/assets/Oi%20meu%20amor%20tudo%20bem.mp3",
+            "url": "https://github.com/andrearagaoregis/mylle-alves-premium-app/raw/refs/heads/main/assets/Oi%20meu%20amor%20tudo%20bem.mp3
+",
             "usage_count": 0,
             "last_used": None
         },
         "pq_nao_faco_chamada": {
-            "url": "https://github.com/andrearagaoregis/testes2/raw/refs/heads/main/assets/Pq%20nao%20fa%C3%A7o%20mais%20chamada.mp3",
+            "url": "https://github.com/andrearagaoregis/mylle-alves-premium-app/raw/refs/heads/main/assets/Pq%20nao%20fa%C3%A7o%20mais%20chamada.mp3
+",
             "usage_count": 0,
             "last_used": None
         },
-        "ver_nua_tem_que_comprar": {
-            "url": "https://github.com/andrearagaoregis/testes2/raw/refs/heads/main/assets/Pra%20me%20ver%20nua%20tem%20que%20comprar%20os%20packs.mp3",
+        "pra_me_ver_nua_tem_que_comprar": {
+            "url": "https://github.com/andrearagaoregis/mylle-alves-premium-app/raw/refs/heads/main/assets/Pra%20me%20ver%20nua%20tem%20que%20comprar%20os%20packs.mp3
+",
             "usage_count": 0,
             "last_used": None
         },
         "eu_tenho_uns_conteudos_que_vai_amar": {
-            "url": "https://github.com/andrearagaoregis/testes2/raw/refs/heads/main/assets/eu%20tenho%20uns%20conteudos%20aqui%20que%20vc%20vai%20amar.mp3",
+            "url": "https://github.com/andrearagaoregis/mylle-alves-premium-app/raw/refs/heads/main/assets/eu%20tenho%20uns%20conteudos%20aqui%20que%20vc%20vai%20amar.mp3
+",
             "usage_count": 0,
             "last_used": None
         },
         "nao_sou_fake_nao": {
-            "url": "https://github.com/andrearagaoregis/testes2/raw/refs/heads/main/assets/nao%20sou%20fake%20nao.mp3",
+            "url": "https://github.com/andrearagaoregis/mylle-alves-premium-app/raw/refs/heads/main/assets/nao%20sou%20fake%20nao..mp3
+",
             "usage_count": 0,
             "last_used": None
         },
         "vida_to_esperando_voce_me_responder_gatinho": {
-            "url": "https://github.com/andrearagaoregis/testes2/raw/refs/heads/main/assets/vida%20to%20esperando%20voce%20me%20responder%20gatinho.mp3",
+            "url": "https://github.com/andrearagaoregis/mylle-alves-premium-app/raw/refs/heads/main/assets/vida%20to%20esperando%20voce%20me%20responder%20gatinho.mp3",
             "usage_count": 0,
             "last_used": None
         },
